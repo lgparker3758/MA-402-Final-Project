@@ -19,6 +19,9 @@ The solver targets a distributed mesh to find the optimal design that minimizes 
     * `getVecArray.ipynb`: Handling local vector data.
     * `globalToLocal.ipynb`: Managing ghost point synchronization.
     * `getAccess.ipynb`: Using DMComposite context managers.
+ 
+## AI Translation Experience
+I used Gemini to help translate C code into Python code. It was an "ok" experience for someone who has never worked with C code and isn't extremely confident with Python. I felt that Gemini was better at writing code than ChatGPT, but it still created a lot of errors. The biggest problem I had was with trying to get VS Code and Python to work correctly. I consistently had issues with path directory, being told pip wasn't installed, being told ipy kernel wasn't installed, and more. 
 
 ## Installation & Usage
 Ensure you have `petsc4py` installed in your WSL/Linux environment.
