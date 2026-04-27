@@ -13,12 +13,12 @@ The solver targets a distributed mesh to find the optimal design that minimizes 
 * **Optimized Memory:** Uses context managers for automatic memory restoration of PETSc vectors.
 
 ## Project Structure
-* `main_script.py`: The core PETSc solver and optimization logic.
-* `visualization.ipynb`: Jupyter Notebook for analyzing solver convergence and results.
+* `MA402_FinalProject.py`: The core PETSc solver and optimization logic.
+* `MA402_visualizations.ipynb`: Jupyter Notebook for analyzing solver convergence and results.
 * `docs/`: Deep-dive technical documentation for PETSc methods.
-    * `getVecArray.md`: Handling local vector data.
-    * `globalToLocal.md`: Managing ghost point synchronization.
-    * `getAccess.md`: Using DMComposite context managers.
+    * `getVecArray.ipynb`: Handling local vector data.
+    * `globalToLocal.ipynb`: Managing ghost point synchronization.
+    * `getAccess.ipynb`: Using DMComposite context managers.
 
 ## Installation & Usage
 Ensure you have `petsc4py` installed in your WSL/Linux environment.
