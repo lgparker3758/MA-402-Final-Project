@@ -13,7 +13,7 @@ The solver targets a distributed mesh to find the optimal design that minimizes 
 * **Optimized Memory:** Uses context managers for automatic memory restoration of PETSc vectors.
 
 ## Project Structure
-* `MA402_FinalProject.py`: The core PETSc solver and optimization logic.
+* [Link]`MA402_FinalProject.py`: The core PETSc solver and optimization logic.
 * `MA402_visualizations.ipynb`: Jupyter Notebook for analyzing solver convergence and results.
 * `docs/`: Deep-dive technical documentation for PETSc methods.
     * `getVecArray.ipynb`: Handling local vector data.
